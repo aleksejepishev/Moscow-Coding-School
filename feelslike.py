@@ -25,7 +25,7 @@ class Bot:
         self.enable_logging()
         self.updater = Updater(token=token, use_context = True)
         self.dispatcher = self.updater.dispatcher
-        self.weather_api = WeatherApi('96d3a61a7040975572116ff4f0555b69')
+        self.weather_api = WeatherApi('#############################')
         self.add_handlers() #обработчик создаваемых событий
     
     def enable_logging(self):
@@ -104,5 +104,5 @@ class Bot:
         print('Bot is ready for work!')
         self.updater.idle()
         
-Bot = Bot('1429562086:AAHQdGeYPF-NKFT-XecDoPskFeKdf69jD_Q')
+Bot = Bot('####################################')
 Bot.work()
