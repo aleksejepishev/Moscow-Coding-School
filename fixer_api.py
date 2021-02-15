@@ -1,13 +1,13 @@
 import requests
 import json
 
-fixer_key = '92eb6c649f02cd29b5541a797a70619b'
+fixer_key = '############################'
 baseurl = 'http://data.fixer.io/api/latest'
 params = {'access_key': fixer_key}
 fixer_resp = requests.get(baseurl, params = params)
 
 
-#url = "http://data.fixer.io/api/latest?access_key=53d609ad140b77fa8bfaa08e912e13d6"
+#url = "http://data.fixer.io/api/latest?access_key=###########################"
 #raw_data = urllib.request.urlopen(url).read()
 #parsed_data = json.loads(raw_data)
 
